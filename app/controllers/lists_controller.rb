@@ -8,7 +8,7 @@ class ListsController < ApplicationController
   end
 
   def new # GET
-    @list = List.new
+    @bookmark = Bookmark.new
   end
 
   def create # POST
